@@ -1,0 +1,63 @@
+- sign is flag 
+double hyphinmeans the word after doublehyphin is to find whole speleing
+single hyphin meanns to find one one letter after single hyphin 
+repositry is the folder in which git wil work
+
+git config --global user.name "ahmed"
+ git config --global user.email "ahmedmemon785@gmail.com"
+$ git commit -m "adding f1" (-m is for message to look at committed version)
+ git log
+git add *.php
+git add .   (for adding all files in folder)
+git add -A
+git add --all
+git status (checcking status of all files )
+
+
+Git Process
+check status
+add files
+commit work
+
+git log -php
+
+
+We can solve team work issue by BRANSCHES in git
+git bra
+Our live code is in master branch and not all persons are allowed to access master brandch
+one branch is development branch where all developers are doing development
+one brandch is for testing team where developed code is pushed to check by test team
+
+for making a branch named login 
+git branch login (created Branch named login)
+going from one branch to other is call checkout
+
+going from master to login branch
+git checkout login
+hm js branch m hote hn whi files nzr ati hn jo us branch m rhte hue add hoti hn
+looking all branches 
+git branch -v
+To create a new branch and switch to it at the same time, you can run the git checkout command with the -b switch:
+
+$ git checkout -b iss53
+Switched to a new branch "iss53"
+This is shorthand for:
+
+$ git branch iss53
+$ git checkout iss53
+merge all branches into one we use merge brancch
+
+git merge branch to merge 
+
+Saving data Tempeorrary (Commit is for  version making whe)
+git stash
+
+Adding local work to remote  
+git remote add (origin)
+git push origin -u --all
+git clone (url provideed by a git project for adding a project into our project)
+git pull
+	our server new wrok and log history will be downloadwed into my pc (Data and log hsitory)
+git fetch 
+	only new data will be updated
+eng Qasim
